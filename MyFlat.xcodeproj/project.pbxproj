@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC8425BB274A43A4009CCFA2 /* MyFlatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8425BA274A43A4009CCFA2 /* MyFlatApp.swift */; };
+		BC8425BD274A43A4009CCFA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8425BC274A43A4009CCFA2 /* ContentView.swift */; };
+		BC8425BF274A43A6009CCFA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8425BE274A43A6009CCFA2 /* Assets.xcassets */; };
+		BC8425C2274A43A6009CCFA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8425C1274A43A6009CCFA2 /* Preview Assets.xcassets */; };
+		BC8425C4274A43A6009CCFA2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8425C3274A43A6009CCFA2 /* Persistence.swift */; };
+		BC8425C7274A43A6009CCFA2 /* MyFlat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC8425C5274A43A6009CCFA2 /* MyFlat.xcdatamodeld */; };
+		BC8425CF274A4442009CCFA2 /* MyFlatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8425CE274A4442009CCFA2 /* MyFlatView.swift */; };
+		BC8425D2274A4463009CCFA2 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8425D1274A4463009CCFA2 /* LocationManager.swift */; };
+		BC8425D4274A4623009CCFA2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8425D3274A4623009CCFA2 /* MapView.swift */; };
+		BC8425D7274A46A2009CCFA2 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8425D6274A46A2009CCFA2 /* CircleImage.swift */; };
+		BC8425D9274A564C009CCFA2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8425D8274A564C009CCFA2 /* MainView.swift */; };
+		BC8425DB274A58D7009CCFA2 /* WaterMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8425DA274A58D7009CCFA2 /* WaterMeterView.swift */; };
+		BC8425DD274A6200009CCFA2 /* Meters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8425DC274A6200009CCFA2 /* Meters.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC8425B7274A43A4009CCFA2 /* MyFlat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFlat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8425BA274A43A4009CCFA2 /* MyFlatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFlatApp.swift; sourceTree = "<group>"; };
+		BC8425BC274A43A4009CCFA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC8425BE274A43A6009CCFA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC8425C1274A43A6009CCFA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC8425C3274A43A6009CCFA2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BC8425C6274A43A6009CCFA2 /* MyFlat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyFlat.xcdatamodel; sourceTree = "<group>"; };
+		BC8425CE274A4442009CCFA2 /* MyFlatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFlatView.swift; sourceTree = "<group>"; };
+		BC8425D1274A4463009CCFA2 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		BC8425D3274A4623009CCFA2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BC8425D6274A46A2009CCFA2 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		BC8425D8274A564C009CCFA2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BC8425DA274A58D7009CCFA2 /* WaterMeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMeterView.swift; sourceTree = "<group>"; };
+		BC8425DC274A6200009CCFA2 /* Meters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meters.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC8425B4274A43A4009CCFA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC8425AE274A43A4009CCFA2 = {
+			isa = PBXGroup;
+			children = (
+				BC8425B9274A43A4009CCFA2 /* MyFlat */,
+				BC8425B8274A43A4009CCFA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC8425B8274A43A4009CCFA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC8425B7274A43A4009CCFA2 /* MyFlat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC8425B9274A43A4009CCFA2 /* MyFlat */ = {
+			isa = PBXGroup;
+			children = (
+				BC8425D5274A4698009CCFA2 /* Controls */,
+				BC8425D0274A4453009CCFA2 /* Helper */,
+				BC8425CD274A441D009CCFA2 /* Views */,
+				BC8425BA274A43A4009CCFA2 /* MyFlatApp.swift */,
+				BC8425BC274A43A4009CCFA2 /* ContentView.swift */,
+				BC8425BE274A43A6009CCFA2 /* Assets.xcassets */,
+				BC8425C3274A43A6009CCFA2 /* Persistence.swift */,
+				BC8425C5274A43A6009CCFA2 /* MyFlat.xcdatamodeld */,
+				BC8425C0274A43A6009CCFA2 /* Preview Content */,
+			);
+			path = MyFlat;
+			sourceTree = "<group>";
+		};
+		BC8425C0274A43A6009CCFA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC8425C1274A43A6009CCFA2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC8425CD274A441D009CCFA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC8425CE274A4442009CCFA2 /* MyFlatView.swift */,
+				BC8425D3274A4623009CCFA2 /* MapView.swift */,
+				BC8425D8274A564C009CCFA2 /* MainView.swift */,
+				BC8425DA274A58D7009CCFA2 /* WaterMeterView.swift */,
+				BC8425DC274A6200009CCFA2 /* Meters.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC8425D0274A4453009CCFA2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BC8425D1274A4463009CCFA2 /* LocationManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		BC8425D5274A4698009CCFA2 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				BC8425D6274A46A2009CCFA2 /* CircleImage.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC8425B6274A43A4009CCFA2 /* MyFlat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8425CA274A43A6009CCFA2 /* Build configuration list for PBXNativeTarget "MyFlat" */;
+			buildPhases = (
+				BC8425B3274A43A4009CCFA2 /* Sources */,
+				BC8425B4274A43A4009CCFA2 /* Frameworks */,
+				BC8425B5274A43A4009CCFA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFlat;
+			productName = MyFlat;
+			productReference = BC8425B7274A43A4009CCFA2 /* MyFlat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC8425AF274A43A4009CCFA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					BC8425B6274A43A4009CCFA2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = BC8425B2274A43A4009CCFA2 /* Build configuration list for PBXProject "MyFlat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC8425AE274A43A4009CCFA2;
+			productRefGroup = BC8425B8274A43A4009CCFA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC8425B6274A43A4009CCFA2 /* MyFlat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC8425B5274A43A4009CCFA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8425C2274A43A6009CCFA2 /* Preview Assets.xcassets in Resources */,
+				BC8425BF274A43A6009CCFA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC8425B3274A43A4009CCFA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8425D4274A4623009CCFA2 /* MapView.swift in Sources */,
+				BC8425DD274A6200009CCFA2 /* Meters.swift in Sources */,
+				BC8425D9274A564C009CCFA2 /* MainView.swift in Sources */,
+				BC8425DB274A58D7009CCFA2 /* WaterMeterView.swift in Sources */,
+				BC8425D7274A46A2009CCFA2 /* CircleImage.swift in Sources */,
+				BC8425C7274A43A6009CCFA2 /* MyFlat.xcdatamodeld in Sources */,
+				BC8425C4274A43A6009CCFA2 /* Persistence.swift in Sources */,
+				BC8425CF274A4442009CCFA2 /* MyFlatView.swift in Sources */,
+				BC8425BD274A43A4009CCFA2 /* ContentView.swift in Sources */,
+				BC8425D2274A4463009CCFA2 /* LocationManager.swift in Sources */,
+				BC8425BB274A43A4009CCFA2 /* MyFlatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC8425C8274A43A6009CCFA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC8425C9274A43A6009CCFA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC8425CB274A43A6009CCFA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyFlat/Preview Content\"";
+				DEVELOPMENT_TEAM = K6JR72RJTK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eotrokov.MyFlat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC8425CC274A43A6009CCFA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyFlat/Preview Content\"";
+				DEVELOPMENT_TEAM = K6JR72RJTK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eotrokov.MyFlat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC8425B2274A43A4009CCFA2 /* Build configuration list for PBXProject "MyFlat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8425C8274A43A6009CCFA2 /* Debug */,
+				BC8425C9274A43A6009CCFA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC8425CA274A43A6009CCFA2 /* Build configuration list for PBXNativeTarget "MyFlat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8425CB274A43A6009CCFA2 /* Debug */,
+				BC8425CC274A43A6009CCFA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BC8425C5274A43A6009CCFA2 /* MyFlat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BC8425C6274A43A6009CCFA2 /* MyFlat.xcdatamodel */,
+			);
+			currentVersion = BC8425C6274A43A6009CCFA2 /* MyFlat.xcdatamodel */;
+			path = MyFlat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BC8425AF274A43A4009CCFA2 /* Project object */;
+}
